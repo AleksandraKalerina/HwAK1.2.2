@@ -20,7 +20,7 @@ class PostmanEchoUtfTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("погода"));
+                .body("data", equalTo("природа"));
     }
 }
 
